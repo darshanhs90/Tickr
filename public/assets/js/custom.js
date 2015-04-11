@@ -60,8 +60,45 @@
                 hideHover: 'auto',
                 resize: true
             });
-           
-     
+
+	        /* MORRIS DONUT CHART
+	         ----------------------------------------*/
+	        Morris.Donut({
+		        element: 'morris-donut-chart',
+		        data: [{
+			        label: "Download Sales",
+			        value: 12
+		        }, {
+			        label: "In-Store Sales",
+			        value: 30
+		        }, {
+			        label: "Mail-Order Sales",
+			        value: 20
+		        }],
+		        colors: [
+			        '#A6A6A6','#2DAFCB',
+			        '#F98484'
+		        ],
+		        resize: true
+	        });
+	        Morris.Donut({
+		        element: 'morris-donut-chart2',
+		        data: [{
+			        label: "Download Sales",
+			        value: 12
+		        }, {
+			        label: "In-Store Sales",
+			        value: 30
+		        }, {
+			        label: "Mail-Order Sales",
+			        value: 20
+		        }],
+		        colors: [
+			        '#A6A6A6','#2DAFCB',
+			        '#F98484'
+		        ],
+		        resize: true
+	        });
         },
 
         initialization: function () {
