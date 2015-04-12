@@ -142,6 +142,7 @@
 			----------------------------------------*/
 
 	        var num = -5;
+	        var numb = -5;
 
             Morris.Line({
                 element: 'morris-line-chart',
