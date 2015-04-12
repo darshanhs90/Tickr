@@ -319,10 +319,10 @@
 
             <!-- /. ROW  -->
 
-            <div class="row">
-                <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="row" id="rollout">
+                <div class="col-md-4 col-sm-12 col-xs-12" style="opacity: 0;">
                     <div class="">
-                    <div class="panel panel-primary text-center no-boder bg-color-green green">
+                    <div class="panel panel-primary text-center no-boder bg-color-green green" onclick="clickme();">
                         <div class="panel-left pull-left green">
                             <p class="stocks">Goog</p>
                         </div>
@@ -338,25 +338,25 @@
                     </div>
                         </div>
                 </div>
-                <div class="col-md-2 col-sm-12 col-xs-12">
+                <div class="col-md-2 col-sm-12 col-xs-12" style="opacity: 0;">
                     <div class="panel-body chart-container">
                         <div id="morris-donut-chart" class="chart-bg" style="height: 182px; width: 182px;"></div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-12 col-xs-12">
+                <div class="col-md-2 col-sm-12 col-xs-12" style="opacity: 0;">
                     <div class="panel-body chart-container">
                         <div id="morris-donut-chart2" class="chart-bg" style="height: 182px; width: 182px; margin-left: 60px;"></div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-12 col-xs-12">
+                <div class="col-md-2 col-sm-12 col-xs-12" style="opacity: 0;">
                     <div class="panel-body chart-container">
                         <div id="morris-donut-chart3" class="chart-bg" style="height: 182px; width: 182px; margin-left: 120px;"></div>
                     </div>
                 </div>
             </div>
             <div class="row profilerow">
-                <h1 class="page-header"><small>Executive Team</small></h1>
-                <div class="col-md-4">
+                <h1 class="page-header" style="opacity: 0;"><small>Executive Team</small></h1>
+                <div style="opacity: 0;" class="col-md-4" onclick="showme2()">
                     <div class="panel-body">
                         <div class="panel-left2">
                             <p class="pos">CEO</p>
@@ -374,7 +374,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div style="opacity: 0;" class="col-md-4">
                     <div class="panel-body">
                         <div class="panel-left2">
                             <p class="pos">CTO</p>
@@ -392,7 +392,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div style="opacity: 0;" class="col-md-4">
                     <div class="panel-body">
                         <div class="panel-left2">
                             <p class="pos">CFO</p>
@@ -414,56 +414,56 @@
             </div>
 
             <div class="row rowfix">
-                <h1 class="page-header"><small>Social Activity</small></h1>
-                <div class="col-md-4 socialEx">
+                <h1 class="page-header" style="display: none;"><small>Social Activity</small></h1>
+                <div class="col-md-4 socialEx" style="opacity: 0;">
                     <div>
                     <img src="assets/img/linkedin.png">
                     <p>The Retirement of Our CFO (Article)</p>
                         </div>
                 </div>
-                <div class="col-md-3 socialEx">
+                <div class="col-md-3 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>I'm Google (Article)</p>
                     </div>
                 </div>
-                <div class="col-md-4 socialEx">
+                <div class="col-md-4 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>Hooray we're rich! (Tweet)</p>
                     </div>
                 </div>
-                <div class="col-md-3 socialEx">
+                <div class="col-md-3 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>The RetiO (Article)</p>
                     </div>
                 </div>
-                <div class="col-md-4 socialEx">
+                <div class="col-md-4 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>I'm Google (Article)</p>
                     </div>
                 </div>
-                <div class="col-md-4 socialEx">
+                <div class="col-md-4 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>Hooray we're rich! (Tweet)</p>
                     </div>
                 </div>
-                <div class="col-md-4 socialEx">
+                <div class="col-md-4 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>The Retirement of Our CFO (Article)</p>
                     </div>
                 </div>
-                <div class="col-md-4 socialEx">
+                <div class="col-md-4 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>I'm Google (Article)</p>
                     </div>
                 </div>
-                <div class="col-md-3 socialEx">
+                <div class="col-md-3 socialEx" style="opacity: 0;">
                     <div>
                         <img src="assets/img/linkedin.png">
                         <p>@Yourmom Lol (Tweet)</p>
@@ -482,7 +482,7 @@
 <script src="assets/js/jquery-1.10.2.js"></script>
 <!-- Bootstrap Js -->
 <script src="assets/js/bootstrap.min.js"></script>
-
+<script src="assets/js/mine.js"></script>
 <!-- Metis Menu Js -->
 <script src="assets/js/jquery.metisMenu.js"></script>
 <!-- Morris Chart Js -->

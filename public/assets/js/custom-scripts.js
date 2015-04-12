@@ -178,7 +178,7 @@
 
         }
 
-    }
+    };
     // Initializing ///
 
     $(document).ready(function () {
@@ -186,3 +186,4 @@
     });
 
 }(jQuery));
+
