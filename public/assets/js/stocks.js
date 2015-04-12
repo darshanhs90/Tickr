@@ -2,10 +2,10 @@ Morris.Donut({
 	element: 'morris-donut-chart',
 	data: [{
 		label: "Accuracy",
-		value: 12
+		value: 13
 	}, {
 		label: "Accuracy",
-		value: 30
+		value: 87
 	}],
 	colors: [
 		'#A6A6A6','#2DAFCB',
@@ -17,13 +17,13 @@ Morris.Donut({
 	element: 'morris-donut-chart2',
 	data: [{
 		label: "Sentiment",
-		value: 12
+		value: 11
 	}, {
 		label: "Sentiment",
-		value: 30
+		value: 75
 	}, {
 		label: "Sentiment",
-		value: 20
+		value: 14
 	}],
 	colors: [
 		'#A6A6A6','#2DAFCB',
@@ -35,13 +35,13 @@ Morris.Donut({
 	element: 'morris-donut-chart3',
 	data: [{
 		label: "Outlook",
-		value: 12
-	}, {
-		label: "Outlook",
 		value: 30
 	}, {
 		label: "Outlook",
-		value: 20
+		value: 41
+	}, {
+		label: "Outlook",
+		value: 29
 	}],
 	colors: [
 		'#A6A6A6','#2DAFCB',

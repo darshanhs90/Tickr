@@ -140,26 +140,29 @@
 
             /* MORRIS LINE CHART
 			----------------------------------------*/
+
+	        var num = -5;
+
             Morris.Line({
                 element: 'morris-line-chart',
                 data: [
-					  { y: '2014', a: 50, b: 90},
-					  { y: '2015', a: 165,  b: 185},
-					  { y: '2016', a: 150,  b: 130},
-					  { y: '2017', a: 175,  b: 160},
-					  { y: '2018', a: 80,  b: 65},
-					  { y: '2019', a: 90,  b: 70},
-					  { y: '2020', a: 100, b: 125},
-					  { y: '2021', a: 155, b: 175},
-					  { y: '2022', a: 80, b: 85},
-					  { y: '2023', a: 145, b: 155},
-					  { y: '2024', a: 160, b: 195}
+					  { y: '0', a: 532.98, b: 171.1737},
+					  { y: '1', a: 538.77,  b: 132.0767
+					  },
+					  { y: '2', a: 540.91,  b: 129.9298},
+					  { y: '3', a: 540.73,  b: 117.5332
+					  },
+					  { y: '4', a: 540.65,  b: 155.3586},
+					  { y: '5', a: 540.09,  b: 140.5574},
+					  { y: '6', a: 556.76}
 				],
             
 				 
       xkey: 'y',
+	            events: ['1905-01-01'],
+	             xLabelFormat: function (x) { var string = num.toString() + " Days"; num++; return string;},
       ykeys: ['a', 'b'],
-      labels: ['Total Income', 'Total Outcome'],
+      labels: ['Avg. Price', 'Trade Volume'],
       fillOpacity: 0.6,
       hideHover: 'auto',
       behaveLikeLine: true,
